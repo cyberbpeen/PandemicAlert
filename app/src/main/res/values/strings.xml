@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Pandemic Alert</string>
+
+    <string name="icon_img_desc">Icon Background</string>
+    <string name="list_of_devices">List Of Devices</string>
+
+    <!--Menu String-->
+    <string name="stay_home_stay_safe">Stay Home, Stay Safe</string>
+    <string name="pandemic_patient">Patient Status</string>
+    <string name="social_distancing">Social Distancing</string>
+    <string name="feedback">Feedback</string>
+    <string name="emergency_contact">Emergency Numbers</string>
+    <string name="symptoms_and_precautions">Symptoms and Precautions</string>
+    <string name="about_covid_19">About COVID-19</string>
+    <string name="country_stats">Country Stats</string>
+    <string name="about">About</string>
+
+    <!--Feedback string-->
+    <string name="cancel_btn">Cancel</string>
+    <string name="submit_btn">Submit</string>
+    <string name="feedback_message_hint">Suggests us what do you think and we\'ll work on it.</string>
+
+    <!--Patient Details-->
+    <string name="gender">Gender :</string>
+    <string name="age">Age :</string>
+    <string name="current_status">Current Status :</string>
+    <string name="detected_date">Detected Date :</string>
+    <string name="detected_city">Detected City :</string>
+    <string name="detected_district">Detected District :</string>
+    <string name="detected_state">Detected State :</string>
+    <string name="nationality">Nationality :</string>
+    <string name="status_change_date">Status Change Date :</string>
+    <string name="type_of_transmission">Type of Transmission :</string>
+    <string name="notes">Notes :</string>
+    <string name="patient_details">Patient Details</string>
+
+    <!--Splash String-->
+    <string name = "Swipe" >Swipe right</string >
+    <string name = "Get" >Get Started</string >
+
+    <!--Emergency Contact string-->
+    <string name="contact_note">Note: Found these number through internet (Not Sure)
+	</string>
+    <string name="contact_nights_only">(Nights Only)</string>
+    <string name="dr_shrawan">Dr. Shrawan K. Mishra</string>
+    <string name="dr_shrawan_number">9851168220</string>
+    <string name="dr_ranjit">Dr. Ranjit Shah</string>
+    <string name="dr_ranjit_number">9872701465</string>
+    <string name="dr_rajesh">Dr. Rajesh K. Gupta</string>
+    <string name="dr_rajesh_number">9851239988</string>
+    <string name="dr_dinesh">Dr. Dinesh Thapa Magar</string>
+    <string name="dr_dinesh_number">9823168540</string>
+    <string name="dr_naresh">Dr. Naresh Thapa Magar</string>
+    <string name="dr_naresh_number">9803152149</string>
+
+    <!--symptoms string-->
+    <string name="symptoms_message">COVID-19 Symptoms range from mild to severe. It takes 2&#8211;14 days after
+		exposure for symptoms to develop. Symptoms may include:
+	</string>
+    <string name="fever">Fever</string>
+    <string name="tiredness">Tiredness</string>
+    <string name="dry_cough">Dry cough</string>
+    <string name="sore_throat">Sore throat</string>
+    <string name="aches_and_pains">Aches and pains</string>
+    <string name="nasal_congestion_running_nose">Nasal congestion, running nose</string>
+    <string name="diarrhoea">Diarrhoea</string>
+    <string name="shortness_of_breath_or_difficulty_breathing">Shortness of breath or difficulty breathing</string>
+
+    <!--Precautions string-->
+    <string name="wash_your_hand">Clean your hands often. Use soap and water, or an alcohol-based hand rub.</string>
+    <string name="maintain_safe_distance">Maintain a safe distance from anyone who is coughing or sneezing.</string>
+    <string name="stay_away">Stay away from people and maintain socail distancing.</string>
+    <string name="read_some_books">And for Fuck Sake Read Books. You are The Human not Some Fucking Animals.
+	</string>
+    <string name="follow_health_authority">Follow the directions of your local health authority.</string>
+    <string name="seek_medical_attention_in_advance">If you have a fever, a cough and difficulty breathing, seek
+		medical attention. Call in advance.
+	</string>
+    <string name="stay_home">Stay home if you feel unwell.</string>
+    <string name="cover_your_nose_and_mouth">Cover your
+		nose and mouth with your bent elbow or a tissue when you cough or sneeze.
+	</string>
+    <string name="don_t_touch_your_eyes_nose_or_mouth">Don’t touch your eyes, nose or mouth.</string>
+
+    <!-- Main Activity String -->
+    <string name="confirmed">Confirmed</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Deaths</string>
+    <string name="nepal_updates">Nepal Updates</string>
+    <string name="by_state">By State and District</string>
+    <string name="global_updates">Global Updates</string>
+    <string name="affected_country">Affected Country</string>
+    <string name="critials">Critials</string>
+    <string name="today_deaths">Today Deaths</string>
+    <string name="today_confirmed">Today Confirmed</string>
+    <string name="search_by_country">Search by Country</string>
+    <string name="copyright_message">The following information is collected from Internet, believing they are of public domain. And I don\'t have any authority of Copyright of the given information .</string>
+    <string name="developed_and_design_by">Developed By:</string>
+    <string name="author_name">Bipin Mahato</string>
+    <string name="close">Close</string>
+    <string name="total_negative">Total Negative</string>
+    <string name="total_tested">Total Tested</string>
+    <string name="version_1_0_00">Version : 1.0</string>
+
+</resources>

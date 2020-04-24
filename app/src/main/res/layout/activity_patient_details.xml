@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/pd_number"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorDarkOne"
+        android:elevation="12dp"
+        android:fontFamily="@font/crimson_text"
+        android:gravity="center_vertical"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp"
+        android:text="@string/patient_details"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorForestGreen"
+        android:textSize="28sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/raw_patient_list_view"
+        android:layout_width = "0dp"
+        android:layout_height = "0dp"
+        android:padding="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/pd_number"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/gender"/>
+
+                <TextView
+                    android:id="@+id/pd_gender"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/age"/>
+
+                <TextView
+                    android:id="@+id/pd_age"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/current_status"/>
+
+                <TextView
+                    android:id="@+id/pd_current_status"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/detected_date"/>
+
+                <TextView
+                    android:id="@+id/pd_detected_date"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/detected_city"/>
+
+                <TextView
+                    android:id="@+id/pd_detected_city"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/detected_district"/>
+
+                <TextView
+                    android:id="@+id/pd_detected_district"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/detected_state"/>
+
+                <TextView
+                    android:id="@+id/pd_detected_state"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/nationality"/>
+
+                <TextView
+                    android:id="@+id/pd_nationality"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/status_change_date"/>
+
+                <TextView
+                    android:id="@+id/pd_status_change_date"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/type_of_transmission"/>
+
+                <TextView
+                    android:id="@+id/pd_transmission_type"
+                    android:layout_marginStart="4dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textColor = "@color/colorConfirm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:textSize = "16sp"
+                    android:textStyle="bold"
+                    android:textColor = "@color/colorWhite"
+                    android:text="@string/notes"/>
+
+                <LinearLayout
+                    android:layout_marginStart="4dp"
+                    android:orientation="vertical"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content">
+
+                    <TextView
+                        android:id="@+id/pd_notes"
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:textSize = "16sp"
+                        android:textColor = "@color/colorConfirm"/>
+
+                    <TextView
+                        android:id="@+id/pd_backup_notes"
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:textSize = "16sp"
+                        android:layout_marginTop="4dp"
+                        android:textColor = "@color/colorConfirm"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/pd_nepal_update"
+        android:text="@string/nepal_updates"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom="64dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_sticky_button"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

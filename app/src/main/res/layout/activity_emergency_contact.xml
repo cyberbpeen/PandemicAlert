@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+		xmlns:android = "http://schemas.android.com/apk/res/android"
+		xmlns:tools = "http://schemas.android.com/tools"
+		xmlns:app = "http://schemas.android.com/apk/res-auto"
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		tools:context = ".EmergencyContactActivity" >
+
+	<TextView
+			android:id="@+id/contact_title"
+			android:layout_width = "0dp"
+			android:layout_height = "?attr/actionBarSize"
+			android:textSize = "28sp"
+			android:textColor = "@color/colorForestGreen"
+			android:background="@color/colorDarkOne"
+			android:textAlignment = "center"
+			android:gravity="center"
+			android:elevation="12dp"
+			app:layout_constraintLeft_toLeftOf = "parent"
+			app:layout_constraintRight_toRightOf = "parent"
+			app:layout_constraintTop_toTopOf = "parent"
+			android:fontFamily = "@font/crimson_text"  />
+
+	<LinearLayout
+			android:layout_width = "0dp"
+			android:layout_height = "0dp"
+			android:orientation="vertical"
+			android:padding="24dp"
+			app:layout_constraintTop_toBottomOf="@+id/contact_title"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintBottom_toTopOf="@id/contact_note">
+
+		<LinearLayout
+				android:id="@+id/contact_ranjit"
+				android:paddingTop="8dp"
+				android:paddingBottom="8dp"
+				android:paddingStart="12dp"
+				android:paddingEnd="12dp"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:background="?android:attr/selectableItemBackground"
+				android:orientation="vertical">
+
+			<TextView
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textSize = "22sp"
+					android:textColor = "@color/colorWhite"
+					android:text="@string/dr_ranjit"
+					android:fontFamily = "@font/crimson_text"  />
+
+			<TextView
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textSize = "18sp"
+					android:textColor = "@color/colorWhite"
+					android:text="@string/dr_ranjit_number"
+					android:fontFamily = "@font/crimson_text"  />
+
+		</LinearLayout>
+
+		<View
+				android:background="@color/colorLightText"
+				android:layout_width = "match_parent"
+				android:layout_height = "1dp"/>
+
+		<LinearLayout
+				android:id="@+id/contact_rajesh"
+				android:paddingTop="8dp"
+				android:paddingBottom="8dp"
+				android:paddingStart="12dp"
+				android:paddingEnd="12dp"
+				android:background="?android:attr/selectableItemBackground"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:orientation="vertical">
+
+			<TextView
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textSize = "22sp"
+					android:textColor = "@color/colorWhite"
+					android:text="@string/dr_rajesh"
+					android:fontFamily = "@font/crimson_text"  />
+
+			<TextView
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textSize = "18sp"
+					android:textColor = "@color/colorWhite"
+					android:text="@string/dr_rajesh_number"
+					android:fontFamily = "@font/crimson_text"  />
+
+		</LinearLayout>
+
+		<View
+				android:background="@color/colorLightText"
+				android:layout_width = "match_parent"
+				android:layout_height = "1dp"/>
+
+		<LinearLayout
+				android:id="@+id/contact_shrawan"
+				android:paddingTop="8dp"
+				android:paddingBottom="8dp"
+				android:paddingStart="12dp"
+				android:paddingEnd="12dp"
+				android:background="?android:attr/selectableItemBackground"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:orientation="vertical">
+
+			<TextView
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textSize = "22sp"
+					android:textColor = "@color/colorWhite"
+					android:text="@string/dr_shrawan"
+					android:fontFamily = "@font/crimson_text"  />
+
+			<TextView
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textSize = "18sp"
+					android:textColor = "@color/colorWhite"
+					android:text="@string/dr_shrawan_number"
+					android:fontFamily = "@font/crimson_text"  />
+
+		</LinearLayout>
+
+		<View
+				android:background="@color/colorLightText"
+				android:layout_width = "match_parent"
+				android:layout_height = "1dp"/>
+
+		<LinearLayout
+				android:id="@+id/contact_dinesh"
+				android:paddingTop="8dp"
+				android:paddingBottom="8dp"
+				android:paddingStart="12dp"
+				android:paddingEnd="12dp"
+				android:background="?android:attr/selectableItemBackground"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:orientation="vertical">
+
+			<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content">
+
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:textSize = "22sp"
+						android:textColor = "@color/colorWhite"
+						android:text="@string/dr_dinesh"
+						android:fontFamily = "@font/crimson_text"  />
+
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:textSize = "12sp"
+						android:paddingStart="12dp"
+						android:paddingEnd="12dp"
+						android:textColor = "@color/colorWhite"
+						android:text="@string/contact_nights_only"/>
+
+			</LinearLayout>
+
+			<TextView
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textSize = "18sp"
+					android:textColor = "@color/colorWhite"
+					android:text="@string/dr_dinesh_number"
+					android:fontFamily = "@font/crimson_text"  />
+
+		</LinearLayout>
+
+		<View
+				android:background="@color/colorLightText"
+				android:layout_width = "match_parent"
+				android:layout_height = "1dp"/>
+
+		<LinearLayout
+				android:background="?android:attr/selectableItemBackground"
+				android:id="@+id/contact_naresh"
+				android:paddingTop="8dp"
+				android:paddingBottom="8dp"
+				android:paddingStart="12dp"
+				android:paddingEnd="12dp"
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:orientation="vertical">
+
+			<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content">
+
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:textSize = "22sp"
+						android:textColor = "@color/colorWhite"
+						android:text="@string/dr_naresh"
+						android:fontFamily = "@font/crimson_text"  />
+
+				<TextView
+						android:layout_width = "wrap_content"
+						android:layout_height = "wrap_content"
+						android:textSize = "12sp"
+						android:paddingStart="12dp"
+						android:paddingEnd="12dp"
+						android:textColor = "@color/colorWhite"
+						android:text="@string/contact_nights_only"/>
+
+			</LinearLayout>
+
+			<TextView
+					android:layout_width = "match_parent"
+					android:layout_height = "wrap_content"
+					android:textSize = "18sp"
+					android:textColor = "@color/colorWhite"
+					android:text="@string/dr_naresh_number"
+					android:fontFamily = "@font/crimson_text"  />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+			android:id="@+id/contact_note"
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintBottom_toTopOf="@id/contact_close_btn"
+			android:textSize = "14sp"
+			android:textAlignment="center"
+			android:layout_marginStart="28dp"
+			android:layout_marginEnd="28dp"
+			android:layout_marginBottom="12dp"
+			android:textColor = "@color/colorWhite"
+			android:text="@string/contact_note"/>
+
+	<ImageButton
+			android:id="@+id/contact_close_btn"
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:layout_marginBottom="20dp"
+			android:background="@drawable/custom_icon_bg"
+			android:elevation="45dp"
+			android:src="@drawable/ic_close_icon"
+			android:contentDescription="@string/icon_img_desc"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout >

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        xmlns:tools = "http://schemas.android.com/tools"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:paddingTop="12dp"
+        tools:context = ".fragment.PrecautionsFragment" >
+
+    <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_washhands_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/wash_your_hand"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_distance_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/stay_away"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_distance_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/maintain_safe_distance"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_distance_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/don_t_touch_your_eyes_nose_or_mouth"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_distance_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/cover_your_nose_and_mouth"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_distance_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/stay_home"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_distance_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/seek_medical_attention_in_advance"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_distance_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/follow_health_authority"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+        <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width = "45dp"
+                    android:layout_height = "45dp"
+                    android:contentDescription="@string/icon_img_desc"
+                    android:background="@drawable/custom_icon_bg"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_distance_icon"/>
+
+            <TextView
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:text="@string/read_some_books"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorLightText"
+                android:layout_width = "match_parent"
+                android:layout_height = "1dp"/>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView >
