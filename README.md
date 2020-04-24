@@ -1,5 +1,5 @@
 # PandemicAlert
-The Pandemic Alert is an Android application that provides the latest information updates about the Corona Virus(COVID-19) from Nepal as well as all Corona affected countries of the world. And helps to manage social distancing.
+The Pandemic Alert is an Android application that provides the latest information updates about the Corona Virus(COVID-19) from Nepal as well as all Corona affected countries of the world. And also helps to manage social distancing.
 
 # Screenshots
 <table style="width:100%">
