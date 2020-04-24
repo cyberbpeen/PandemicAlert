@@ -12,11 +12,11 @@ public class SocialMedia {
             context.getPackageManager()
                     .getPackageInfo("com.facebook.katana", 0);
             return new Intent(Intent.ACTION_VIEW,
-                    Uri.parse(Constants.FACEBOOK_PROFILE_URL));
+                    Uri.parse(Constants.FACEBOOK_PROFILE_ID_URL));
         } catch (Exception e){
 
             return new Intent(Intent.ACTION_VIEW,
-                    Uri.parse(Constants.FACEBOOK_PROFILE_CATCH_URL));
+                    Uri.parse(Constants.FACEBOOK_PROFILE_URL));
         }
     }
 }

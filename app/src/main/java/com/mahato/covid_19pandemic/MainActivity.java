@@ -4,18 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.app.job.JobInfo;
-import android.app.job.JobScheduler;
-import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
 import com.mahato.covid_19pandemic.fragment.NepalFragment;
-import com.mahato.covid_19pandemic.services.StatusChangedJobService;
 import com.mahato.covid_19pandemic.util.ConnectionDetector;
 import com.mahato.covid_19pandemic.util.CustomDialog;
 
@@ -43,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         setFragment(new NepalFragment());
 
         mInternetRunnable.run();
-        scheduleJob();
     }
 
     private Runnable mInternetRunnable = new Runnable() {
@@ -86,23 +80,4 @@ public class MainActivity extends AppCompatActivity {
         }, 2000);
 
     }
-
-    public void scheduleJob() {
-        ComponentName componentName = new ComponentName(this, StatusChangedJobService.class);
-        JobInfo info = new JobInfo.Builder(123, componentName)
-                .setRequiresCharging(true)
-                .setRequiredNetworkType(JobInfo.NETWORK_TYPE_UNMETERED)
-                .setPersisted(true)
-                .setPeriodic(1 * 60 * 60 * 1000)
-                .build();
-
-        JobScheduler scheduler = (JobScheduler) getSystemService(JOB_SCHEDULER_SERVICE);
-        int resultCode = scheduler.schedule(info);
-        if (resultCode == JobScheduler.RESULT_SUCCESS) {
-            Log.d(TAG, "Job scheduled");
-        } else {
-            Log.d(TAG, "Job scheduling failed");
-        }
-    }
-
 }

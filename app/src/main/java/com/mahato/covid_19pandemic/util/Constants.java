@@ -10,7 +10,7 @@ public class Constants {
 
 
 
-    public static final String FACEBOOK_PROFILE_URL = "fb://profile/100004187504237";
+    public static final String FACEBOOK_PROFILE_ID_URL = "fb://profile/100004187504237";
 
-    public static final String FACEBOOK_PROFILE_CATCH_URL = "https://www.facebook.com/beepin1995";
+    public static final String FACEBOOK_PROFILE_URL = "https://www.facebook.com/beepin1995";
 }
